@@ -1,3 +1,9 @@
+:root {
+
+  /* lighter shades of primary color */
+  --clr-primary-9: hsl(185, 94%, 87%);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +12,62 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  margin-bottom: 1.25rem;
+  background: #00A4CCFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+  padding-left: 25px;
+  float: right;
+}
+.main-navbar {
+  background: #00A4CCFF;
+  color: #ffffff;
+  padding-top: 10px;
+}
+.main-navbar h3 {
+  color: #ffffff;
+}
+.carousel h1 {
+  color: #ffffff;
+}
+.hero-img {
+  width: 400px;
+}
+.win-img {
+  width: 100px;
+}
+.carousel {
+  background: #00A4CCFF;
+  color: #ffffff;
+  margin-top: 60px;
+  padding: 10px;
+}
+.carousel .btn-solid {
+  background-color: #ff8065;
+}
+.choosetourna {
+  background-color: whitesmoke;
+}
+.choosetourna .btn-solid {
+  background-color: #00A4CCFF;
+}
+.createtourna {
+  background-color: #00A4CCFF;
+}
+@media (max-width: 575.98px) { 
+  .hero-img {
+    width: 200px;
+  }
+  .win-img {
+    width: 50px;
+  }
 }
