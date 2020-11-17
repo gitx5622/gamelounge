@@ -9,7 +9,7 @@ const Carousel = () => {
         <div className="carousel">
             <div className="container">
              <Row>
-                <Col sm={12} xs={12}>
+                <Col sm={12} xs={24}>
                 <h1>Enjoy a good game with friends</h1><br/>
                 <img src={check} alt="check" width="25px"/>&nbsp;&nbsp;&nbsp;Enjoy their leisure time online with friends<br/>
                 <img src={check} alt="check" width="25px"/>&nbsp;&nbsp;&nbsp;Make money playing your favorite game<br/>
@@ -19,7 +19,7 @@ const Carousel = () => {
                 <br/>
                 <Button className="btn-solid">Get Started</Button>
                 </Col>
-                <Col sm={12} xs={12}>
+                <Col sm={12}>
                 <img src={hero} alt="nav-img" className="hero-img"/>
                 </Col>
             </Row>

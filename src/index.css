@@ -64,8 +64,15 @@ li {
   background-color: #00A4CCFF;
 }
 @media (max-width: 575.98px) { 
+  .carousel {
+    background: #00A4CCFF;
+    color: #ffffff;
+    margin-top: 50px;
+    padding: 10px;
+  }
   .hero-img {
     width: 200px;
+    margin-left: 50px;
   }
   .win-img {
     width: 50px;
