@@ -20,7 +20,9 @@ const Carousel = () => {
                 <Button className="btn-solid">Get Started</Button>
                 </Col>
                 <Col sm={12}>
+                <center>
                 <img src={hero} alt="nav-img" className="hero-img"/>
+                </center>
                 </Col>
             </Row>
             </div>

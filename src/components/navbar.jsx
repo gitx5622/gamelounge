@@ -7,10 +7,10 @@ const NavBar = () => {
             <div className="container">
             <Row>
                 <Col sm={12} xs={12}>
-                <h3>GameLounge</h3>
+                <h3>Game<strong style={{color:"#ff8065"}}>Lounge</strong></h3>
                 </Col>
                 <Col sm={12} xs={12}>
-                <ul>
+                <ul className="auth-links">
                     <li>Login</li>
                     <li>Sign Up</li>
                 </ul>

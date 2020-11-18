@@ -23,7 +23,13 @@ body {
 ul {
   list-style: none;
 }
-li {
+
+/*
+=============== 
+NavBar
+===============
+*/
+.auth-links li {
   display: inline;
   padding-left: 25px;
   float: right;
@@ -36,6 +42,12 @@ li {
 .main-navbar h3 {
   color: #ffffff;
 }
+
+/*
+=============== 
+Carousel
+===============
+*/
 .carousel h1 {
   color: #ffffff;
 }
@@ -54,6 +66,12 @@ li {
 .carousel .btn-solid {
   background-color: #ff8065;
 }
+
+/*
+=============== 
+Choose Tournament
+===============
+*/
 .choosetourna {
   background-color: whitesmoke;
 }
@@ -63,6 +81,32 @@ li {
 .createtourna {
   background-color: #00A4CCFF;
 }
+
+/*
+=============== 
+Footer
+===============
+*/
+.footer {
+  background-color: #242a35;
+}
+#navigation li {
+  display: inline;
+}
+#navigation a {
+  color: white;
+}
+.articles a {
+  color: white;
+}
+.payments-methods li {
+  display: inline;
+  margin-left: 50px;
+}
+.footer-color {
+  color: #a1a9b3;
+}
+
 @media (max-width: 575.98px) { 
   .carousel {
     background: #00A4CCFF;
