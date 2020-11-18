@@ -81,6 +81,9 @@ Choose Tournament
 .createtourna {
   background-color: #00A4CCFF;
 }
+.createtourna .btn-solid {
+  background-color: #ff8065;
+}
 
 /*
 =============== 

@@ -4,6 +4,7 @@ import visa from '../assets/visa.png';
 import paypal from '../assets/paypal.png';
 import mcafee from '../assets/mcafee.png';
 import lets from '../assets/lets.png';
+import mpesa from '../assets/mpesa.png';
 
 const Footer = () => {
     return ( 
@@ -50,7 +51,7 @@ const Footer = () => {
             </Col>
             <Col sm={3} xs={6}>
             <ul className="articles footer-link essay-font">
-            <li><h3 className="footer-color">TOPRATED</h3></li><hr/>
+            <li><h3 className="footer-color">GAMELOUNGE</h3></li><hr/>
                     <li><a href="/site/article/custom-writing">Custom writing</a></li>
                     <li><a href="/site/article/write-my-paper-cheap">Write my paper cheap</a></li>
                     <li><a href="/site/article/urgent-essay-writing">Urgent essay writing</a></li>
@@ -68,6 +69,7 @@ const Footer = () => {
             <ul className="payments-methods">
                 <li><img src={lets} alt="lets_encrypt" width="200px" height="70px"/></li>
                 <li><img src={mcafee} alt="mcafee" width="100px"/></li>
+                <li><img src={mpesa} alt="mcafee" width="100px"/></li>
                 <li><img src={paypal} alt="paypal" width="100px"/></li>
                 <li><img src={visa} alt="visa" width="100px"/></li>
             </ul>
