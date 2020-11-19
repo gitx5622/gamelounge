@@ -187,6 +187,10 @@ Blog
 .blog-content .btn-color {
   color: white;
 }
+
+.screenshot-img {
+  padding: 20px;
+}
 @media (max-width: 575.98px) { 
   .carousel {
     background-image: url('./assets/gametheme.jpg');

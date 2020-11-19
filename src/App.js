@@ -6,6 +6,7 @@ import CreateTournament from './components/createTournament';
 import Footer from './components/footer';
 import HowItWorks from './components/howitworks';
 import NavBar from './components/navbar';
+import Screenshots from './components/screenshots';
 import SearchTournament from './components/search';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <ChooseTournament/>
       <CreateTournament/>
       <Blog/>
+      <Screenshots/>
       <Footer/>
     </div>
   );
