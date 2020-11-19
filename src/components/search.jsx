@@ -15,20 +15,18 @@ const SearchTournament = () => {
                     <label htmlFor="exampleInputEmail1">Game name</label>
                     <select className="form-control" id="exampleFormControlSelect1">
                     <option>FIFA 21</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                    <option>MADDEN 3</option>
+                    <option>NBA 2K</option>
+                    <option>FIFA 20</option>
+                    <option>FORNITE</option>
                     </select>
                 </li>
                 <li>
                     <label htmlFor="exampleInputEmail1">Game console</label>
                     <select className="form-control" id="exampleFormControlSelect1">
                     <option>Playstation 4</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                    <option>X-BOX ONE</option>
+                    <option>PC</option>
                     </select>
                 </li>
                 <li>
