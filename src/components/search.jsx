@@ -6,6 +6,7 @@ const SearchTournament = () => {
             <div className="container">
                 <center><h3>Search Tournament</h3></center>
             <form>
+            <center>
             <ul className="search-input">
                 <li>
                     <label htmlFor="exampleInputEmail1">Game Username</label>
@@ -35,6 +36,7 @@ const SearchTournament = () => {
                 </li>
                 {/* <li><br/><Button className="btn-solid">Search</Button></li> */}
             </ul>
+            </center>
             </form>
             </div>
         </div>

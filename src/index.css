@@ -160,7 +160,6 @@ Search Tournament
 }
 .searchtournament .btn-solid {
   background-color: #ff8065;
-  min-height: 200px;
 }
 
 /*
@@ -207,7 +206,8 @@ Blog
     width: 50px;
   }
   .search-input {
-    display: none;
+    display: block;
+    margin-left: -60px;
   }
   .blog-content {
     padding: 30px;
