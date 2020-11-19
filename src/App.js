@@ -1,4 +1,5 @@
 import React from 'react';
+import Blog from './components/blog';
 import Carousel from './components/carousel';
 import ChooseTournament from './components/chooseTournament';
 import CreateTournament from './components/createTournament';
@@ -16,6 +17,7 @@ function App() {
       <SearchTournament/>
       <ChooseTournament/>
       <CreateTournament/>
+      <Blog/>
       <Footer/>
     </div>
   );

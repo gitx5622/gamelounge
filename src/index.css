@@ -35,7 +35,11 @@ NavBar
   float: right;
 }
 .main-navbar {
-  background: #00A4CCFF;
+  background-image: url('./assets/gametheme.jpg');
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
   color: #ffffff;
   padding-top: 10px;
 }
@@ -58,7 +62,11 @@ Carousel
   width: 100px;
 }
 .carousel {
-  background: #00A4CCFF;
+  background-image: url('./assets/gametheme.jpg');
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   margin-top: 60px;
   padding: 10px;
@@ -79,10 +87,17 @@ Choose Tournament
   background-color: #00A4CCFF;
 }
 .createtourna {
-  background-color: #00A4CCFF;
+  background-image: url('./assets/gametheme.jpg');
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .createtourna .btn-solid {
   background-color: #ff8065;
+}
+.createtourna h3 {
+  color: white;
 }
 
 /*
@@ -117,7 +132,17 @@ Search Tournament
 */
 
 .searchtournament {
-  background-color: #00A4CCFF;
+  background-image: url('./assets/gametheme.jpg');
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.searchtournament h3 {
+  color: white;
+}
+.searchtournament label {
+  color: white;
 }
 .search-input {
   display: flex;
@@ -125,16 +150,51 @@ Search Tournament
 .search-input li {
   padding: 20px;
 }
+.search-input input {
+  border-radius: unset;
+  width: 200px;
+}
 .search-input select {
   border-radius: unset;
   width: 200px;
 }
 .searchtournament .btn-solid {
   background-color: #ff8065;
+  min-height: 200px;
+}
+
+/*
+=============== 
+Blog
+===============
+*/
+.blog {
+  background-image: url('./assets/gaming.jpg');
+   /* Full height */
+   height: 100%;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.blog-content {
+  padding: 100px;
+  color: white;
+}
+.blog-content h3 {
+  color: white;
+}
+.blog-content .btn-color {
+  color: white;
 }
 @media (max-width: 575.98px) { 
   .carousel {
-    background: #00A4CCFF;
+    background-image: url('./assets/gametheme.jpg');
+   /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ffffff;
     margin-top: 50px;
     padding: 10px;
@@ -148,5 +208,9 @@ Search Tournament
   }
   .search-input {
     display: none;
+  }
+  .blog-content {
+    padding: 30px;
+    color: white;
   }
 }

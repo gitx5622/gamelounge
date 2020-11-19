@@ -8,18 +8,12 @@ const SearchTournament = () => {
             <form>
             <ul className="search-input">
                 <li>
-                    <label for="exampleInputEmail1">Game Username</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Wazito</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    </select>
+                    <label htmlFor="exampleInputEmail1">Game Username</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 </li>
                 <li>
-                    <label for="exampleInputEmail1">Game name</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <label htmlFor="exampleInputEmail1">Game name</label>
+                    <select className="form-control" id="exampleFormControlSelect1">
                     <option>FIFA 21</option>
                     <option>2</option>
                     <option>3</option>
@@ -28,8 +22,8 @@ const SearchTournament = () => {
                     </select>
                 </li>
                 <li>
-                    <label for="exampleInputEmail1">Game console</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
+                    <label htmlFor="exampleInputEmail1">Game console</label>
+                    <select className="form-control" id="exampleFormControlSelect1">
                     <option>Playstation 4</option>
                     <option>2</option>
                     <option>3</option>
@@ -38,14 +32,8 @@ const SearchTournament = () => {
                     </select>
                 </li>
                 <li>
-                    <label for="exampleInputEmail1">User's Username</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                    <option>gitx5622</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
-                    </select>
+                    <label htmlFor="exampleInputEmail1">User's Username</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
                 </li>
                 {/* <li><br/><Button className="btn-solid">Search</Button></li> */}
             </ul>
