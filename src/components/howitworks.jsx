@@ -21,7 +21,7 @@ const HowItWorks = () => {
                 <Col sm={6} xs={24}>
                 <center>
                 <img src={play} alt="win-img" className="win-img"/>
-                <p>User can create or join a tournament</p>
+                <p>User can Search, create or join a tournament below</p>
                 </center>
                 </Col>
                 <Col sm={6} xs={24}>

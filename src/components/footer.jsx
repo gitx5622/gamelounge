@@ -51,7 +51,7 @@ const Footer = () => {
             </Col>
             <Col sm={3} xs={6}>
             <ul className="articles footer-link essay-font">
-            <li><h3 className="footer-color">GAMELOUNGE</h3></li><hr/>
+            <li><h3 className="footer-color">LOUNGE</h3></li><hr/>
                     <li><a href="/site/article/custom-writing">Custom writing</a></li>
                     <li><a href="/site/article/write-my-paper-cheap">Write my paper cheap</a></li>
                     <li><a href="/site/article/urgent-essay-writing">Urgent essay writing</a></li>

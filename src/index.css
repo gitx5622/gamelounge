@@ -146,4 +146,7 @@ Search Tournament
   .win-img {
     width: 50px;
   }
+  .search-input {
+    display: none;
+  }
 }
