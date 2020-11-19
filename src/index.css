@@ -110,6 +110,28 @@ Footer
   color: #a1a9b3;
 }
 
+/*
+=============== 
+Search Tournament
+===============
+*/
+
+.searchtournament {
+  background-color: #00A4CCFF;
+}
+.search-input {
+  display: flex;
+}
+.search-input li {
+  padding: 20px;
+}
+.search-input select {
+  border-radius: unset;
+  width: 200px;
+}
+.searchtournament .btn-solid {
+  background-color: #ff8065;
+}
 @media (max-width: 575.98px) { 
   .carousel {
     background: #00A4CCFF;
