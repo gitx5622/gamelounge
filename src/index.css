@@ -191,6 +191,10 @@ Blog
 .screenshot-img {
   padding: 20px;
 }
+.slick-dots li button {
+  font-size: 100px;
+}
+
 @media (max-width: 575.98px) { 
   .carousel {
     background-image: url('./assets/gametheme.jpg');
