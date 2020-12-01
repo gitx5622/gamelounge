@@ -18,7 +18,7 @@ class Screenshots extends Component {
           prevArrow: <GrPrevious style={{color:"#fdaa8f"}}/>
         };
         return (
-          <div className="m-5">
+          <div className="screenshots m-5">
             <center><h3>Screenshots and Videos</h3></center>
             <div className="underline"></div>
             <Slider {...settings}>

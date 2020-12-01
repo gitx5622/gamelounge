@@ -75,6 +75,11 @@ Carousel
   background-color: #ff8065;
 }
 
+.screenshots .slick-dots li button:before {
+  font-size: 20px;
+  color: #16818f;
+}
+
 /*
 =============== 
 Choose Tournament
