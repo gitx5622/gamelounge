@@ -1,29 +1,26 @@
 import React from 'react';
-import Blog from './components/blog';
-import Carousel from './components/carousel';
-import ChooseTournament from './components/chooseTournament';
-import CreateTournament from './components/createTournament';
-import Footer from './components/footer';
-import HowItWorks from './components/howitworks';
-import NavBar from './components/navbar';
-import Screenshots from './components/screenshots';
-import SearchTournament from './components/search';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from './components/home';
+import { history } from './utils/history';
+import NotFound from './components/notFound';
+import LoginForm from './auth/loginForm';
+import Register from './auth/registerForm';
 
-function App() {
+const App = () =>  {
   return (
-    <div className="App">
-      <NavBar/>
-      <Carousel/>
-      <HowItWorks/>
-      <SearchTournament/>
-      <ChooseTournament/>
-      <CreateTournament/>
-      <Blog/>
-      <Screenshots/>
-      <Footer/>
-    </div>
+      <div>
+      <Router history={history}>
+      <Switch>
+        <Route path={["/login","/register","/blog","/contact","/notfound","/"]}>
+            <Route path="/login" component={LoginForm}/>
+            <Route path="/register" component={Register}/>
+            <Route path="/notfound" component={NotFound} />
+            <Route exact path="/" component={Home}/>
+        </Route>
+      </Switch>
+      </Router>
+      </div>
   );
 }
 
 export default App;
-

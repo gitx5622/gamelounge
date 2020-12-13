@@ -34,6 +34,9 @@ NavBar
   padding-left: 25px;
   float: right;
 }
+.auth-links li a {
+  color: white;
+}
 .main-navbar {
   background-image: url('./assets/gametheme.jpg');
    /* Center and scale the image nicely */
@@ -225,5 +228,31 @@ Blog
   .blog-content {
     padding: 30px;
     color: white;
+  }
+}
+
+/*
+=============== 
+Auth
+===============
+*/
+.login-form {
+  background-color: #eaebef;
+  padding: 15% 10%;
+}
+.register-form {
+  background-color: #eaebef;
+  padding: 10%;
+}
+@media (max-width: 575.98px) {
+  .login-form {
+    background-color: #eaebef;
+    padding-top: 200px;
+    padding-bottom: 310px;
+  }
+  .register-form {
+    background-color: #eaebef;
+    padding-top: 150px;
+    padding-bottom: 200px;
   }
 }
