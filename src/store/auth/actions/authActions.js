@@ -26,8 +26,6 @@ export const SignIn = (credentials) => {
             localStorage.setItem("token", userToken);
             localStorage.setItem('user_data', JSON.stringify(userData));
             dispatch({type: LOGIN_SUCCESS, payload: userData});
-            history.push('/order/index');
-            window.location.reload(true);
             message.success('You have successfully logged in.');
             }else if (tokenInfo.user_id !== userData.id) {
                 <Alert message="Token is invalid" type="error" showIcon closable />
@@ -72,8 +70,6 @@ export const SignUp = (newUser) => {
             localStorage.setItem("token", userToken);
             localStorage.setItem('user_data', JSON.stringify(userData));
             dispatch({ type: SIGNUP_SUCCESS });
-            history.push('/order/index');
-            window.location.reload(true);
             }else if (tokenInfo.user_id !== userData.id) {
                 <Alert message="Token is invalid" type="error" showIcon closable />
             }else {

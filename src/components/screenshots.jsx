@@ -38,7 +38,7 @@ class Screenshots extends Component {
               <img src={original} width="100%" alt=""/>
               </div>
               <div className="screenshot-img">
-              <img src={original} width="100%" alt=""/>
+              <img src={original} width="100%" alt=""/><br/>
               </div>
             </Slider>
           </div>
